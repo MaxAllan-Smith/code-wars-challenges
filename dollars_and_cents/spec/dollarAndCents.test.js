@@ -5,7 +5,7 @@ describe('DollarAndCents', () => {
     const dollarAndCents = new DollarAndCents();
 
     afterEach(() => {
-        console.log(dollarAndCents.getSum());
+        // console.log(dollarAndCents.getSum());
         dollarAndCents.resetSum();
     })
     
