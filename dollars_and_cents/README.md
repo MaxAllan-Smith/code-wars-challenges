@@ -18,3 +18,13 @@ Examples:
 ```
 
 Good luck! Your team knows they can count on you!
+
+## Create Example Tests
+
+```
+describe('DollarAndCents', () => {
+    it('should return zero', () => {
+        expect(DollarAndCents.getSum()).toEqual(0)
+    });
+});
+```
